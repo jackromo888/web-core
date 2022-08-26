@@ -30,8 +30,8 @@ export enum TxFilterFormFieldNames {
 
 export type TxFilterFormState = {
   [TxFilterFormFieldNames.FILTER_TYPE]: TxFilterType
-  [TxFilterFormFieldNames.DATE_FROM]: string | null | Date
-  [TxFilterFormFieldNames.DATE_TO]: string | null | Date
+  [TxFilterFormFieldNames.DATE_FROM]: Date | null
+  [TxFilterFormFieldNames.DATE_TO]: Date | null
   [TxFilterFormFieldNames.RECIPIENT]: string
   [TxFilterFormFieldNames.AMOUNT]: string
   [TxFilterFormFieldNames.TOKEN_ADDRESS]: string
